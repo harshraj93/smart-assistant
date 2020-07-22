@@ -1,0 +1,123 @@
+/* Variable declaration */
+
+// Dark/White
+$base-white: #ffffff;
+$font-black: #000000;
+
+// Greyscale
+$gray-darkest: #171717;
+$gray-darker: #2f343b;
+$gray-dark: #40444a;
+$gray: #53565a;
+$gray-light: #545d6b;
+$gray-lighter: #d0d0ce;
+$basic-gray-color:#5d5e60;
+$dull-gray-color:#d0d0ce40;
+$background-gray:#3a414b;
+
+// colors
+$red: #da291c;
+$dark-red:#ec0000;
+$yellow: #ffcd00;
+$neon-yellow: #ccff00;
+$green: #44b02a;
+$blue: #a0dcff;
+$blue-85: #a0dcffd9;
+
+/* color-theme selection */
+$base-color: #e4e4e4;
+$font-darker-gray:#bbbcbc;
+$font-gray:#808080;
+$header-color:#1a1d23;
+$update-time:#97999b;
+$main-gradient-color:#2a2e33;
+$division-menu-bg-color: #0e141b;
+$division-background-color:  #2b405a33;
+$line-background-color:#b1b2b4;
+$border-bottom-color:#97989a80;
+$tile-component-sub-headings: #D0D0CE;
+$background-color-alpha: #000000b3;
+$navy-blue:#0e1319;
+$subNavigation-gradient-bottom:#1B344A;
+$link-color:#ededed;
+$highlight-orange:#f39001;
+$highlight-green: #f4f404;
+$neon-warning: #ffd602;
+
+
+/* color-theme selection */
+
+
+/* other variable declaration */
+
+$border-radius: 2px;
+$popup-border-radius:2px;
+$heading-main-fontsize: 50px;
+$menu-icon-fontsize: 25px;
+$fontsize-fourty: 40px;
+$header-fontSize:23px;
+$font-smallest:9px;
+$font-least-fontSize:12px;
+$font-normal-fontsize: 20px;
+$font-max-fontSize:36px;
+$font-normal-fontsize-table: 15px;
+$menu-bar-width: 245px;
+
+
+$small-margin:8px;
+$common-margin:16px;
+$medium-margin:24px;
+$large-margin:32px;
+
+$alert-titleWidth: 180px;
+
+
+//Font weight
+$regular:300;
+$bold:600;
+
+// Label sizes - Tablet
+$fontsize-tablet-heading1: 28px;
+$fontsize-tablet-heading2: 18px;
+$fontsize-tablet-heading3: 16px;
+$fontsize-tablet-text: 14px;
+$fontsize-tablet-notation: 12px;
+
+// Label sizes - TV
+$fontsize-tv-heading1: 48px;
+$fontsize-tv-heading2: 32px;
+$fontsize-tv-heading3: 28px;
+$fontsize-tv-text: 24px;
+
+/* other variable declaration */
+$header-height:80px;
+$menuSmall-width: 84px;
+$menuOpen-width: 550px;
+$menuFontOpen-width:550px;
+$sizeThirty: 30px;
+$sumHeaderFooter: calc(100vh - 80px);
+$menuOpenContainerWidth: calc(100vw - 550px); // -$menuOpen-width:
+$menuSmallContainerWidth: calc(100vw - 84px); // -$menuSmall-width
+
+
+/* mixin */
+@mixin transition() {
+    transition: all 0.3s linear;
+}
+
+// remove scroll bar visually without removing scroll functionability 
+@mixin removeScrollBar() {
+  overflow: auto;
+  -ms-overflow-style: none; // for IE
+	&::-webkit-scrollbar {
+		display: none;
+  }
+}
+
+// Takes in a color and produces a neon like color 
+@mixin neon-left-border($color){
+  box-shadow: inset 6px 0px 6px -6px $color;
+  border-left: solid 3px $color;
+}
+
+/* mixin */

@@ -1,0 +1,51 @@
+header{
+    &.header{
+        background-color:$font-black;
+        width: 100%;
+        box-sizing:border-box;
+        display: flex;
+        flex-wrap: nowrap;
+        section {
+            flex: 1;
+        }
+    }
+    section.logos {
+        display: flex;
+        width: 100%;
+        .deloitte-icon {
+            margin:auto 0px;
+            display: block;
+            .deloitte {
+                width:124px;
+                margin-left:15%;
+            }
+        }
+    }
+    
+    section.title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 24px;
+            margin: 0px;
+            padding: 0px;
+            font-weight:$bold;
+            color: $base-white;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+    }
+
+    section.header-rightSection{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end; 
+        .zeni-icon{
+            height: 70px;
+        }
+        
+    }
+}

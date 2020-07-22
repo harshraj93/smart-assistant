@@ -1,0 +1,78 @@
+/* structural classes */
+
+@mixin fullHW() {
+    height: 100%;
+    width: 100%;
+}
+
+@mixin anchorLink() {
+    color: $base-white;
+    text-decoration: none;
+    @include transition();
+    &:hover{
+        color: $neon-yellow;
+    }
+}
+
+@mixin loadingSymbol() {
+    height: 30px;
+    width: 100px;
+    border-radius: $border-radius;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -15px;
+    text-align: center;
+    color: $base-white;
+    background-color: $division-menu-bg-color;
+}
+
+
+@mixin custom-scrollbar($width, $height) {
+    /* width */
+    &::-webkit-scrollbar {
+        width: $width;
+        height: $height;
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background-color: grey;
+        border: 3px solid transparent;
+        background-clip: content-box;
+        border-radius: 25px;
+        &:hover {
+            background-color: #999;
+        }
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background-color: #40444a;
+        border: 1px solid grey;
+        border-radius: 25px;
+        // padding: 10px;
+    }
+    /* Corner */
+    &::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+}
+
+/* structural classes */
+
+/*structure style-sheet */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $base-color;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', Roboto, sans-serif;
+} 
+/*structure style-sheet */

@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+.body {
+  overflow-y: hidden;
+}
+
+.app-main{
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  margin: 0;
+  max-height: 100vh;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.content-body{
+  width: 100%;
+  overflow: hidden;
+  background: $base-white;
+}
