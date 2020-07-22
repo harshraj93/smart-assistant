@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/smart-assistant/static/css/main.37e2a18c.chunk.css",
-    "main.js": "/smart-assistant/static/js/main.1ada7f03.chunk.js",
-    "main.js.map": "/smart-assistant/static/js/main.1ada7f03.chunk.js.map",
+    "main.js": "/smart-assistant/static/js/main.1efb64d3.chunk.js",
+    "main.js.map": "/smart-assistant/static/js/main.1efb64d3.chunk.js.map",
     "runtime-main.js": "/smart-assistant/static/js/runtime-main.e022ae6c.js",
     "runtime-main.js.map": "/smart-assistant/static/js/runtime-main.e022ae6c.js.map",
     "static/css/2.44a8782a.chunk.css": "/smart-assistant/static/css/2.44a8782a.chunk.css",
-    "static/js/2.853ec7e3.chunk.js": "/smart-assistant/static/js/2.853ec7e3.chunk.js",
-    "static/js/2.853ec7e3.chunk.js.map": "/smart-assistant/static/js/2.853ec7e3.chunk.js.map",
+    "static/js/2.08b7318a.chunk.js": "/smart-assistant/static/js/2.08b7318a.chunk.js",
+    "static/js/2.08b7318a.chunk.js.map": "/smart-assistant/static/js/2.08b7318a.chunk.js.map",
     "index.html": "/smart-assistant/index.html",
-    "precache-manifest.d52ad522a663f99a477e372e6685ffe2.js": "/smart-assistant/precache-manifest.d52ad522a663f99a477e372e6685ffe2.js",
+    "precache-manifest.82632b179ab403291a7348c0953c7200.js": "/smart-assistant/precache-manifest.82632b179ab403291a7348c0953c7200.js",
     "service-worker.js": "/smart-assistant/service-worker.js",
     "static/css/2.44a8782a.chunk.css.map": "/smart-assistant/static/css/2.44a8782a.chunk.css.map",
     "static/css/main.37e2a18c.chunk.css.map": "/smart-assistant/static/css/main.37e2a18c.chunk.css.map",
-    "static/js/2.853ec7e3.chunk.js.LICENSE.txt": "/smart-assistant/static/js/2.853ec7e3.chunk.js.LICENSE.txt",
+    "static/js/2.08b7318a.chunk.js.LICENSE.txt": "/smart-assistant/static/js/2.08b7318a.chunk.js.LICENSE.txt",
     "static/media/Deloitte_logo.png": "/smart-assistant/static/media/Deloitte_logo.5132d40a.png",
     "static/media/back-arrow.svg": "/smart-assistant/static/media/back-arrow.85103179.svg",
     "static/media/zeni.png": "/smart-assistant/static/media/zeni.c5ec2756.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.e022ae6c.js",
     "static/css/2.44a8782a.chunk.css",
-    "static/js/2.853ec7e3.chunk.js",
+    "static/js/2.08b7318a.chunk.js",
     "static/css/main.37e2a18c.chunk.css",
-    "static/js/main.1ada7f03.chunk.js"
+    "static/js/main.1efb64d3.chunk.js"
   ]
 }

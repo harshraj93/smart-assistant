@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e03fe7a3a21411bfd2183f75a5be89da",
+    "revision": "e54932262fea1dd28e32fee0eeb41e9e",
     "url": "/smart-assistant/index.html"
   },
   {
-    "revision": "33d66707a7eae67e6c9f",
+    "revision": "a7dc6ec980500e40b94e",
     "url": "/smart-assistant/static/css/2.44a8782a.chunk.css"
   },
   {
-    "revision": "7155385e29fd7e45b5c5",
+    "revision": "b407b1696117a18896dc",
     "url": "/smart-assistant/static/css/main.37e2a18c.chunk.css"
   },
   {
-    "revision": "33d66707a7eae67e6c9f",
-    "url": "/smart-assistant/static/js/2.853ec7e3.chunk.js"
+    "revision": "a7dc6ec980500e40b94e",
+    "url": "/smart-assistant/static/js/2.08b7318a.chunk.js"
   },
   {
     "revision": "389dcbdaeb668cb2ae96d13324da45bc",
-    "url": "/smart-assistant/static/js/2.853ec7e3.chunk.js.LICENSE.txt"
+    "url": "/smart-assistant/static/js/2.08b7318a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7155385e29fd7e45b5c5",
-    "url": "/smart-assistant/static/js/main.1ada7f03.chunk.js"
+    "revision": "b407b1696117a18896dc",
+    "url": "/smart-assistant/static/js/main.1efb64d3.chunk.js"
   },
   {
     "revision": "b961366f272ecfe0be09",
