@@ -17,14 +17,15 @@ class App extends Component {
       <div className='app-main'>
         <Header/>
         <div className='content-body'>
-        <Route
+        <CommandCentre  />
+        {/* <Route
               exact path='/smart-assistant'
               render={props => <CommandCentre {...props} />}
             />
            <Route
               exact path='/digitalTwin'
               render={props => <SamerianModel {...props} />}
-            />
+            /> */}
         </div>
       </div>
       </Router>
